@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="ArirockDev" />
+  <meta name="description" content="calculadora de edad o de tiempo que ha pasado" />
+  <meta name="application-name" content="age calculator app" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="container-form">
+      <div class="form-validator">
+        <div class="date">
+          <label for="day" class="label">Day</label>
+          <input id="day" class="day border-alert" name="day" placeholder="DD" />
+        </div>
+        <div class="date">
+          <label for="month" class="label">Month</label>
+          <input id="month" class="month border-alert" type="text" name="month" placeholder="MM" />
+        </div>
+        <div class="date">
+          <label for="year" class="label">Year</label>
+          <input id="year" class="year border-alert" type="text" name="year" placeholder="YYYY" />
+        </div>
+      </div>
+    </div>
+    <div class="separator">
+      <hr />
+      <button id="btn" class="btn" type="button">
+        <img src="./assets/images/icon-arrow.svg" alt="imagen del icono" />
+      </button>
+    </div>
+    <div class="show-results">
+      <div class="results">
+        <div class="result__item">
+          <p class="year-p"><span id="span-y"> -- </span> years</p>
+        </div>
+        <div class="result__item">
+          <p class="month-p"><span id="span-m"> -- </span> months</p>
+        </div>
+        <div class="result__item">
+          <p class="days-p"><span id="span-d"> -- </span> days</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">ArirockDev</a>.
+    </div>
+  </footer>
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
